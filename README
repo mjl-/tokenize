@@ -1,0 +1,12 @@
+this is a small & simple library for parsing simplistic config files.
+
+i typically make config files that are similar to commands with
+parameters.  so that's what this package helps with.  for more
+complex config files, i would consider unmarshalling json, or using
+an ini-file parser.
+
+for documentation, see https://godoc.org/bitbucket.org/mjl/tokenize
+
+for a bit more background, see http://www.ueber.net/who/mjl/blog/p/tokenizing-quoted-strings-in-go
+
+this code is in the public domain, written by mechiel, 2014.
