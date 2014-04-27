@@ -4,7 +4,7 @@
 //	these are words "but this is a quoted string"
 // Results in:
 //	[`these`, `are`, `words`, `but this is a quoted string`]
-// 
+//
 // Escaping:
 //	"a single double quote ("") can be had by putting two subsequent double quotes in a qouted string"
 // Results in:
@@ -13,10 +13,10 @@
 package tokenize
 
 import (
-	"strings"
-	"os"
 	"bufio"
 	"io"
+	"os"
+	"strings"
 )
 
 // s starts with doublequote, read until the ending doublequote.
